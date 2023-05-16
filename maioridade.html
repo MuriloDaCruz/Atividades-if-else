@@ -1,18 +1,10 @@
 <script>
     const nasceu = Number(prompt('Em que ano você nasceu? Digite em número.').trim());
 
-    const result = 2023 - nasceu
-
-    if(result>=18) { 
+    if(new Date().getFullYear() - nasceu>=18) { 
         alert('Você ja é maior de idade.')
     }
-    if(result<18){
-        alert('Você não é maior de idade.')
-    }
-    if(result>150){
-        alert('Você ja está morto!')
-    }
     else{
-        alert('OPÇÃO INVÁLIDA!')
+        alert('Você não é maior de idade.')
     }
 </script>
