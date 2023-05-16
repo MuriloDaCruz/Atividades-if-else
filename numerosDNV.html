@@ -1,0 +1,18 @@
+<script>
+    const Num1 = Number(prompt('Me informe um número.').trim().replace(',','.'));
+    const Num2 = Number(prompt('Me informe um segundo número.').trim().replace(',','.'));
+    const Num3 = Number(prompt('Me informe um terceiro número.').trim().replace(',','.'));
+
+    if(Num1>Num2 && Num1>Num3){
+        alert("dos trẽs números informados, o primeiro é o maior")
+    }
+    if(Num2>Num1 && Num2>Num3){
+        alert("Dos trẽs números informados, o segundo é o maior")
+    }
+    if(Num3>Num1 && Num3>Num2){
+        alert("Dos trẽs números informados, o terceiro é o maior")
+    }
+    if(Num1==Num2 && Num1==Num3 && Num2==Num3) {
+        alert('são todos iguais')
+    }
+</script>

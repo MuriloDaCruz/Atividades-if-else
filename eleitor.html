@@ -1,0 +1,18 @@
+<script>
+    const nasceu = Number(prompt('Em que ano você nasceu? Digite em número.').trim());
+
+    const result = 2023 - nasceu
+
+    if(result>=16) { 
+        alert('Você ja pode votar.')
+    }
+    if(result<16){
+        alert('Você não pode votar.')
+    }
+    if(result>150){
+        alert('Você é o puro osso!')
+    }
+    else{
+        alert('OPÇÃO INVÁLIDA!')
+    }
+</script>
